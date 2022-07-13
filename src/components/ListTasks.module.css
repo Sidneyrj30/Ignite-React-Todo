@@ -1,0 +1,53 @@
+.Content{
+    margin-top: 4rem;
+    width: 46rem;
+    margin: 4rem auto 0;
+}
+
+.Content header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.Content header div{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+}
+
+.nameBlue{
+    color:var(--blue);
+}
+
+.namePurple{
+    color:var(--purple);
+}
+
+.counter{
+    padding: 2px 8px;
+    background: var(--gray-400);
+    border-radius: 999px;
+    color: var(--gray-100);
+}
+
+.emptyContent{
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    height: 244px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--gray-300);
+    flex-direction: column;
+    line-height: 140%;
+    gap: 1rem;
+}
+
+.list{
+    display: grid;
+    gap:12px;
+    margin-bottom: 3rem;
+}
